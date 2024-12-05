@@ -18,6 +18,14 @@ android {
             resources.srcDir("src/main/res")  // Ресурсы проекта
         }
     }
+
+    packagingOptions {
+        exclude("META-INF/LICENSE-notice.md")
+        exclude("META-INF/LICENSE.md")
+        exclude("META-INF/NOTICE.md")
+        exclude("META-INF/NOTICE.txt")
+        exclude("META-INF/*.kotlin_module")
+    }
 }
 
 repositories {
@@ -26,6 +34,12 @@ repositories {
 
 dependencies {
     implementation("org.scala-lang:scala-library:2.13.15")  // Библиотека Scala
+        androidTestImplementation("androidx.test.ext:junit:1.1.3")
+        androidTestImplementation("androidx.test.espresso:espresso-core:3.4.0")
+        androidTestImplementation("org.junit.jupiter:junit-jupiter:5.8.1")
+    testImplementation("junit:junit:4.13.2")
+
+
 }
 
 // Регистрация задачи для компиляции Scala
