@@ -27,7 +27,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TetrisMobile" >
         <activity
-            android:name="com.example.tetrismobile.MainActivity"
+            android:name="com.example.tetrismobile.tetris.GameActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.TetrisMobile" >

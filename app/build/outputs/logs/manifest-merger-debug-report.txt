@@ -71,8 +71,8 @@ MERGED from [:scala-core] C:\Users\User\AndroidStudioProjects\TetrisMobile2\scal
 	xmlns:android
 		ADDED from C:\Users\User\AndroidStudioProjects\TetrisMobile2\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\User\AndroidStudioProjects\TetrisMobile2\app\src\main\AndroidManifest.xml:5:5-26:19
-INJECTED from C:\Users\User\AndroidStudioProjects\TetrisMobile2\app\src\main\AndroidManifest.xml:5:5-26:19
+ADDED from C:\Users\User\AndroidStudioProjects\TetrisMobile2\app\src\main\AndroidManifest.xml:5:5-27:19
+INJECTED from C:\Users\User\AndroidStudioProjects\TetrisMobile2\app\src\main\AndroidManifest.xml:5:5-27:19
 MERGED from [androidx.compose.ui:ui-tooling-android:1.5.1] C:\Users\User\.gradle\caches\8.9\transforms\581ec3dd09b4840a210cc8aef045ffb0\transformed\ui-tooling-release\AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.compose.ui:ui-tooling-android:1.5.1] C:\Users\User\.gradle\caches\8.9\transforms\581ec3dd09b4840a210cc8aef045ffb0\transformed\ui-tooling-release\AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.emoji2:emoji2:1.4.0] C:\Users\User\.gradle\caches\8.9\transforms\676b59d3e08be8a874fc9dcbd2971b99\transformed\emoji2-1.4.0\AndroidManifest.xml:23:5-33:19
@@ -109,22 +109,22 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\User\.gradle\cache
 		ADDED from C:\Users\User\AndroidStudioProjects\TetrisMobile2\app\src\main\AndroidManifest.xml:13:9-50
 	android:dataExtractionRules
 		ADDED from C:\Users\User\AndroidStudioProjects\TetrisMobile2\app\src\main\AndroidManifest.xml:7:9-65
-activity#com.example.tetrismobile.MainActivity
-ADDED from C:\Users\User\AndroidStudioProjects\TetrisMobile2\app\src\main\AndroidManifest.xml:15:9-25:20
+activity#com.example.tetrismobile.tetris.GameActivity
+ADDED from C:\Users\User\AndroidStudioProjects\TetrisMobile2\app\src\main\AndroidManifest.xml:16:9-25:20
 	android:label
-		ADDED from C:\Users\User\AndroidStudioProjects\TetrisMobile2\app\src\main\AndroidManifest.xml:18:13-45
+		ADDED from C:\Users\User\AndroidStudioProjects\TetrisMobile2\app\src\main\AndroidManifest.xml:19:13-45
 	android:exported
-		ADDED from C:\Users\User\AndroidStudioProjects\TetrisMobile2\app\src\main\AndroidManifest.xml:17:13-36
+		ADDED from C:\Users\User\AndroidStudioProjects\TetrisMobile2\app\src\main\AndroidManifest.xml:18:13-36
 	android:theme
-		ADDED from C:\Users\User\AndroidStudioProjects\TetrisMobile2\app\src\main\AndroidManifest.xml:19:13-54
+		ADDED from C:\Users\User\AndroidStudioProjects\TetrisMobile2\app\src\main\AndroidManifest.xml:20:13-54
 	android:name
-		ADDED from C:\Users\User\AndroidStudioProjects\TetrisMobile2\app\src\main\AndroidManifest.xml:16:13-41
+		ADDED from C:\Users\User\AndroidStudioProjects\TetrisMobile2\app\src\main\AndroidManifest.xml:17:13-72
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\User\AndroidStudioProjects\TetrisMobile2\app\src\main\AndroidManifest.xml:20:13-24:29
+ADDED from C:\Users\User\AndroidStudioProjects\TetrisMobile2\app\src\main\AndroidManifest.xml:21:13-24:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\User\AndroidStudioProjects\TetrisMobile2\app\src\main\AndroidManifest.xml:21:17-69
+ADDED from C:\Users\User\AndroidStudioProjects\TetrisMobile2\app\src\main\AndroidManifest.xml:22:17-69
 	android:name
-		ADDED from C:\Users\User\AndroidStudioProjects\TetrisMobile2\app\src\main\AndroidManifest.xml:21:25-66
+		ADDED from C:\Users\User\AndroidStudioProjects\TetrisMobile2\app\src\main\AndroidManifest.xml:22:25-66
 category#android.intent.category.LAUNCHER
 ADDED from C:\Users\User\AndroidStudioProjects\TetrisMobile2\app\src\main\AndroidManifest.xml:23:17-77
 	android:name

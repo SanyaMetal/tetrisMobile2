@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.tetrismobile"  // Пространство имен
+    namespace = "com.example.tetrismobile.tetris"
     compileSdk = 34  // Версия SDK
 
     defaultConfig {
