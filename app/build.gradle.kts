@@ -2,7 +2,8 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
-
+    //id("com.android.application")
+    id("kotlin-android")
 }
 
 android {
@@ -76,11 +77,12 @@ dependencies {
     debugImplementation("androidx.compose.ui:ui-tooling:1.5.1")
 
     implementation(project(":scala-core"))
-    implementation("org.scala-lang:scala-library:2.13.15") // Убедитесь, что эта библиотека включена
+    implementation("org.scala-lang:scala-library:2.13.15")
 
     testImplementation("junit:junit:4.13.2")
     testImplementation("androidx.test.ext:junit:1.1.5")
 
+    implementation("androidx.appcompat:appcompat:1.4.0")
 }
 
 //tasks.withType<org.gradle.api.tasks.compile.JavaCompile>().configureEach {
